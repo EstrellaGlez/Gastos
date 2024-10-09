@@ -69,7 +69,7 @@ class _LoginState extends State<Correo> {
                   child: ElevatedButton(
                       onPressed: () {
                         if (_formKey.currentState!.validate()) {
-                          Navigator.pushNamed(context, '/contrasena');
+                          Navigator.pushNamed(context, '/codigo');
                         }
                       },
                       style: OutlinedButton.styleFrom(
